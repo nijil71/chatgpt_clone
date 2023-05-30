@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "husky": "^4.3.8"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "chatgpt_clone",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./static/input.css -o ./static/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
